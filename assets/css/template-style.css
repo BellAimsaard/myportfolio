@@ -406,7 +406,7 @@ html {
     margin: 0px;
 }
 
-.work-experience .work-timeline article div.inner div.job-position h2 div {
+.work-experience .work-timeline article div.inner div.job-position h2 div.time {
     float: right;
 }
 
@@ -499,12 +499,17 @@ html {
     background: #ffd600;
 }
 
+@media screen and (max-width: 1100px) {
+    .work-experience .work-timeline .job-info .job-position h2 div.time{
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 540px) {
     .work-experience .work-timeline .job-info {
         position: relative;
         width: 95%;
         left: 5%;
-
     }
 }
 
