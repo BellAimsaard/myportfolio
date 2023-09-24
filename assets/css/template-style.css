@@ -406,6 +406,10 @@ html {
     margin: 0px;
 }
 
+.work-experience .work-timeline article div.inner div.job-position h2 div {
+    float: right;
+}
+
 .work-experience .work-timeline article div.inner div.job-position h4 {
     font-size: 15px;
     padding: 0px;
